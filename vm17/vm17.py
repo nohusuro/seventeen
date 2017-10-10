@@ -2,7 +2,6 @@ import sys
 import re
 from getpass import getpass
 from vm17.stack import Stack
-from vm17.getch import getch
 
 class VM17:
   def __init__(self, debug=False):
